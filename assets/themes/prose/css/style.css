@@ -68,8 +68,8 @@ p {
 	margin-bottom: 0px;
 	margin-top: 10px;
 }
-/* Use border-box box model */
 
+/* Use border-box box model */
 * {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -106,10 +106,6 @@ body.post #header {
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
   border-radius: 0px;
-}
-
-#header a.title span {
-  display: none;
 }
 
 #header .navigation, #footer .navigation {
@@ -151,8 +147,6 @@ body.post #header {
 /* ------------------------------------------
   Footer - a sticky one
 ---------------------------------------------*/
-
-
 /* must declare 0 margins on everything, also for main layout components use padding, not
 vertical margins (top and bottom) to add spacing, else those margins get added to total height
 and your footer gets pushed down a bit more, creating vertical scroll bars in the browser */
@@ -184,8 +178,6 @@ and your footer gets pushed down a bit more, creating vertical scroll bars in th
   font-size: 15px;
 }
 
-
-
 #footer a, #footer .brand {
   font-size: 12px;
   font-weight: bold;
@@ -212,8 +204,6 @@ body:before {/* thanks to Maleika (Kohoutec)*/
   width:0;
   margin-top:-32767px;/* thank you Erik J - negate effect of float*/
 }
-
-
 /* ------------------------------------------
   Rendered Markdown
 ---------------------------------------------*/
@@ -316,12 +306,12 @@ body:before {/* thanks to Maleika (Kohoutec)*/
   border: 1px solid #d5e0e4;
   word-wrap: normal
 }
-  .post-content pre code {
 
-    border: none;
-    margin: 0;
-    padding: 0;
-  }
+.post-content pre code {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
 
 .post-content hr {
   margin: 5px 0 19px 0;
@@ -337,7 +327,6 @@ body:before {/* thanks to Maleika (Kohoutec)*/
   margin: 0px auto;
   margin-top: 20px;
 }
-
 
 .improve-article-wrapper a.button {
   width: 100px;
