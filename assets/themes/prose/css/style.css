@@ -177,6 +177,7 @@ and your footer gets pushed down a bit more, creating vertical scroll bars in th
 
 #footer .navigation {
   padding-left: 0;
+  text-indent: 0;
 }
 
 #footer .footer-content {
