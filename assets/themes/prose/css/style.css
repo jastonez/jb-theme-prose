@@ -44,13 +44,13 @@ h4, h5, h6 {
 
 h1 { font-size: 24px; }
 h1 small { font-size: 13px; font-weight: 400; }
-h2 { 
+h2 {
   font-weight: 400;
   font-size: 16px;
   padding: 5px 0 5px 30px;
   }
 h2 small { font-size: 16px; font-weight: 400; }
-h3 { 
+h3 {
   font-size: 11px;
   text-transform: uppercase;
   font-weight: 700;
@@ -65,7 +65,7 @@ h6 { font-size: 11px; font-weight: 400; }
 p {
   font-size: 16px;
   line-height: 1.5em;
-	margin-bottom: 0px; 
+	margin-bottom: 0px;
 	margin-top: 10px;
   }
 /* Use border-box box model */
@@ -179,7 +179,7 @@ body.post #header {
   background-position: -441px -25px;
   background-repeat: no-repeat;
   }
- 
+
 #main {
   padding-top: 60px;
   overflow:auto;
@@ -209,11 +209,11 @@ body.post #header {
 ---------------------------------------------*/
 
 
-/* must declare 0 margins on everything, also for main layout components use padding, not 
-vertical margins (top and bottom) to add spacing, else those margins get added to total height 
+/* must declare 0 margins on everything, also for main layout components use padding, not
+vertical margins (top and bottom) to add spacing, else those margins get added to total height
 and your footer gets pushed down a bit more, creating vertical scroll bars in the browser */
 
-#container { 
+#container {
   min-height: 100%;
   min-width: 960px;
   }
@@ -237,7 +237,7 @@ and your footer gets pushed down a bit more, creating vertical scroll bars in th
 
 
 
-#footer a, #footer .brand { 
+#footer a, #footer .brand {
   font-size: 12px;
   font-weight: bold;
   font-weight: 700;
@@ -259,7 +259,7 @@ and your footer gets pushed down a bit more, creating vertical scroll bars in th
 #footer ul li {
   display: inline;
 }
-  
+
 /*Opera Fix*/
 body:before {/* thanks to Maleika (Kohoutec)*/
   content:"";
@@ -335,7 +335,7 @@ body:before {/* thanks to Maleika (Kohoutec)*/
   }
 
 #start .splash p {
-  margin-bottom: 20px;	
+  margin-bottom: 20px;
   }
 
 .authorize {
@@ -347,10 +347,10 @@ body:before {/* thanks to Maleika (Kohoutec)*/
   }
 
 .authorize p {
-  margin-top: 0; 
+  margin-top: 0;
   margin-bottom: 20px;
   }
-  
+
 .authorize a.button {
   display: block;
   background: #516066;
@@ -358,7 +358,7 @@ body:before {/* thanks to Maleika (Kohoutec)*/
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
-  font-family:'OpenSans', sans-serif; 
+  font-family:'OpenSans', sans-serif;
   text-transform: uppercase;
   font-size: 11px;
   font-weight: 700;
@@ -462,7 +462,7 @@ body.start {
   font-size: 16px;
   padding: 10px;
   margin-bottom: 20px;
-  background: #E0E7EB; 
+  background: #E0E7EB;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   border-radius: 4px
@@ -496,12 +496,12 @@ body.start {
   width: 140px;
   height: 180px;
   margin: 0 20px 20px 0;
-  
+
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0),0 0 10px rgba(0, 0, 0, 0.1);
 
   background:url('images/sprite.png') -450px -640px no-repeat;
   background-color: #E0E7EB;
-  
+
   -moz-border-radius: 3px 3px 0px 3px;
   -webkit-border-radius: 3px 3px 0px 3px;
   border-radius: 3px 3px 0px 3px;
@@ -817,15 +817,15 @@ ul.site li a {
   width: 140px;
   height: 180px;
   margin: 0 20px 20px 0;
-  
+
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0),0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 3px 40px 3px 3px;
-  
+
   background: url('images/sprite.png') -450px -400px no-repeat;
   background-color: #F2F6F8;
   }
-  .post-listing a.link:hover { 
-  background-color: white; 
+  .post-listing a.link:hover {
+  background-color: white;
   }
 
 .post-listing a.link:before {
@@ -835,7 +835,7 @@ ul.site li a {
   vertical-align: middle;
   margin-right: -0.25em;
   }
-  
+
 .post-listing a.link .filename {
   display: inline-block;
   vertical-align: middle;
@@ -878,8 +878,8 @@ ul.site li a {
   background-color: #E0E7EB;
   border-radius: 3px;
   }
-  .post-listing a.link.folder:hover { 
-    background-color: #f0f5f7; 
+  .post-listing a.link.folder:hover {
+    background-color: #f0f5f7;
     }
 
 .post-listing a.link.new .button {
@@ -994,7 +994,7 @@ ul.site li a {
   display: block;
 }
 
-/* commit message end */ 
+/* commit message end */
 
 .document-menu-content {
   width: 960px;
@@ -1038,22 +1038,22 @@ ul.site li a {
   margin-left: 1px;
   border-radius: 0;
   }
-  .document-menu-content .menu-item.cheatsheet { 
+  .document-menu-content .menu-item.cheatsheet {
     background-position: -290px -486px;
     -moz-border-radius: 5px 0px 0px 5px;
     -webkit-border-radius: 5px 0px 0px 5px;
     border-radius: 5px 0px 0px 5px;
     }
-  .document-menu-content .menu-item.preview { 
+  .document-menu-content .menu-item.preview {
     background-position: -438px 15px;
     -moz-border-radius: 0px 5px 5px 0px;
     -webkit-border-radius: 0px 5px 5px 0px;
     border-radius: 0px 5px 5px 0px;
     }
-  .document-menu-content .menu-item.compose { 
+  .document-menu-content .menu-item.compose {
     background-position: -288px -538px;
     }
-  
+
 .document-menu-content .menu-item.preview.active, .document-menu-content .menu-item.cheatsheet.active, .document-menu-content .menu-item.compose.active {
   background-color: rgba(0,0,0, 0.6);
   }
@@ -1195,9 +1195,9 @@ ul.site li a {
   background: none;
   }
 
-.document-menu-content .state .button.save { 
-  background: rgba(0,0,0, 0.2); 
-  width: 180px; 
+.document-menu-content .state .button.save {
+  background: rgba(0,0,0, 0.2);
+  width: 180px;
   text-align: center;
   line-height: 40px;
   margin-left: 1px;
@@ -1220,7 +1220,7 @@ ul.site li a {
 .state a.button.cancel-save {
   display: none;
   background: rgba(0, 0, 0, 0.10) url('images/sprite.png') -283px -588px no-repeat;
-  width: 50px; 
+  width: 50px;
   text-align: center;
   line-height: 40px;
   margin: 0;
@@ -1362,7 +1362,7 @@ ul.site li a {
 .document .surface .content-preview-wrapper    { display: none; }
 
 
-.document .diff-wrapper               { 
+.document .diff-wrapper               {
   position: fixed;
   display: none;
   z-index: 2000;
@@ -1467,8 +1467,8 @@ ul.site li a {
   }
 
 .post-content .title {
-  font-size: 18px; 
-  margin-bottom: 20px; 
+  font-size: 18px;
+  margin-bottom: 20px;
   font-weight: 700;
   border-bottom: 1px solid #d5e0e4;
   padding-bottom: 20px;
@@ -1476,13 +1476,13 @@ ul.site li a {
 
 .post-content h1 { font-size: 36px; margin: 10px 0 20px 0; }
 .post-content h2 { font-size: 24px; margin: 10px 0 20px 0; font-weight: 700; padding: 0; }
-.post-content h3, .post-content h4, .post-content h5, .post-content h6 { 
+.post-content h3, .post-content h4, .post-content h5, .post-content h6 {
   text-transform: none;
   font-size: 18px;
   font-weight: 700;
   margin: 10px 0 5px 0;
   }
-  
+
 .post-content blockquote {
 	padding-left: 19px;
   border-left: 1px solid #d5e0e4;
@@ -1520,7 +1520,7 @@ ul.site li a {
 .post-content a:hover {
   color: #73955C;
   }
-  
+
 .post-content p {
   margin-bottom: 20px;
   }
@@ -1528,7 +1528,7 @@ ul.site li a {
 .post-content p:last-child {
   margin-bottom: 20px;
   }
-  
+
 .post-content code {
   font-family: Menlo, monospace;
   padding: 4px;
@@ -1587,7 +1587,7 @@ ul.site li a {
   background: url('images/sprite.png') -110px -1042px no-repeat;
   }
   .help.post-content h2 { background: none;}
-  
+
 .help .articles {
   overflow: auto;
   }
