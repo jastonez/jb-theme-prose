@@ -101,8 +101,6 @@ body.post #header {
 
 #header .navigation a.title {
   position: relative;
-  width: 80px;
-  background: url('images/sprite.png') 22px -154px no-repeat;
   height: 100%;
   margin: 0;
   -moz-border-radius: 0px;
