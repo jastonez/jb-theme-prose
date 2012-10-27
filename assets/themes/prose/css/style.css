@@ -193,7 +193,7 @@ and your footer gets pushed down a bit more, creating vertical scroll bars in th
   }
 
 #footer a {
-  margin-right: 20px;
+  padding: 22px;
 }
 
 #footer .footer-content p {
