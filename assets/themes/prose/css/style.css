@@ -133,7 +133,7 @@ body.post #header {
   text-indent: 0px;
   }
 
-#header .navigation a:hover {
+.navigation a:hover {
   background-color: #c9d1d6;
   }
 
