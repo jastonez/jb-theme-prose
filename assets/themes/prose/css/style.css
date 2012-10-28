@@ -94,11 +94,6 @@ p {
   overflow: visible;
 }
 
-body.post #header {
-  box-shadow: none;
-  border-bottom: none;
-}
-
 #header .navigation a.title {
   position: relative;
   height: 100%;
@@ -138,10 +133,6 @@ body.post #header {
   overflow:auto;
   min-height: 400px;
   padding-bottom: 60px; /* must be same height as the footer */
-}
-
-#post .inner {
-  position: relative;
 }
 
 /* ------------------------------------------
@@ -186,10 +177,6 @@ and your footer gets pushed down a bit more, creating vertical scroll bars in th
 
 #footer a {
   padding: 22px;
-}
-
-#footer .footer-content p {
-  margin: 16px 0;
 }
 
 #footer ul li {
