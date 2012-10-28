@@ -1,7 +1,10 @@
 <div class="help post-content">
   <h1 class="title">{{page.title}}</h1>
   {{ content }}
-  <div class="meta">Posted by <a href="https://twitter.com/{{page.author_twitter}}" target="_blank">{{page.author}}</a> on {{ page.date | date: "%B %d, %Y" }} </div>
+  <div class="meta">Posted by <a
+      href="https://twitter.com/{% if page.author.twitter %}{{page.author_twitter}}{% else %}{{site.author.twitter}}{% endif %}"
+      target="_blank">{% if page.author.name %}{{page.author.name}}{% else %}{{site.author.name}}{% endif %}</a> on {{ page.date | date: "%B %d, %Y"}}
+  </div>
 </div>
 
 <div class="improve-article-wrapper">
